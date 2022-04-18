@@ -3,6 +3,16 @@ body {
   padding: 0;
 }
 
+a, a:focus, a:hover {
+  text-decoration: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.chakra-button {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 /* --- START of Header ---*/
 
 
@@ -14,5 +24,6 @@ body {
 .navBarItem {
   padding: 0.7rem;
 }
+
 
 /* --- End of NavBar ---*/
